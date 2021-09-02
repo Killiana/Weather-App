@@ -8,7 +8,7 @@ function App() {
           <div className="weather-app">
             <div className="row">
               <div className="col-6">
-                <h1></h1>
+                <h1>London</h1>
                 <ul>
                   <li>
                     <span id="day"> Tuesday</span> <span id="hours"> </span>:
