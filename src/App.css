@@ -2,37 +2,85 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Georama", sans-serif;
+}
+ul {
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  text-align: left;
+  list-style: none;
+  text-transform: capitalize;
+}
+h1 {
+  color: rgb(236, 110, 76);
+  font-weight: 600;
+}
+a {
+  color: rgb(236, 110, 76);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.source {
+  text-align: center;
+}
+small,
+.source {
+  margin-bottom: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img,
+.image {
+  display: block;
+  margin: -10px -16px;
+}
+.source {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  border: 1px solid orange;
+  padding: 30px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.sunny {
+  width: 85px;
 }
+.temp {
+  font-size: 40px;
+}
+.left {
+  float: left;
+}
+.weath-temp img {
+  margin-right: 14px;
+}
+.cels {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.weath-temp .active {
+  color: black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  cursor: default;
+}
+.weather-forecast {
+  text-align: center;
+}
+.weath-temp .active:hover {
+  text-decoration: none;
+}
+.forecast-temp {
+  color: rgb(236, 110, 76);
+  font-weight: bold;
+}
+.col-2,
+.blabla {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 7px;
+  margin-left: 14px;
 }
